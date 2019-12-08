@@ -7,7 +7,7 @@
 > terms, period and interest amount rate.
 > Price - (presentValue\* _N _ Repay Amount ) = Down payment
 
-### Case 2 Calculating the future value
+### Calculating the future value
 
 **_Assuming our user pays at the end of the given period, so our program should accumulate the value with gthe iven interest rate;_**
 
@@ -15,7 +15,7 @@
 
 > Accumulated Down payment(1+i)**N = Accumulated Price(1+i)**N - (AccumulatedValue\*_N _ Repay Amount)
 
-### Case 3 Calculating The Down Payment with Given Time Value
+### Calculating The Down Payment with Given Time Value
 
 **_Assuming our user wants to calculate the downpayment with the given period of time_**
 
