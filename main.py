@@ -84,4 +84,4 @@ def main(InterestRate, effectiveInterestTerms, fixedPeriod, repayAmount, price, 
 if __name__ == "__main__":
 
     result = main(18, 12, 4, 250, 10000, 24)
-    print(result)
+    print("\n\n\n\n", result, "\n\n\n\n")
