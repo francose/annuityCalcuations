@@ -22,3 +22,25 @@
 ###### Logic
 
 > Accumulated Down payment = Accumulated Price ** T -(presentValue \* Repay Amount ) ** T- (AccumulatedValue \* Repay Amount)**-(N+T) / (1+i)**T
+
+```python
+'''
+Present Value method takes 5 parameters as intergers and returns downpayment amount
+'''
+presentValue = PresentValue(
+    InterestRate, effectiveInterestTerms, fixedPeriod, repayAmount, price)
+
+'''
+Accumulated Value method takes 5 parameters as intergers and returns downpayment amount (future value)
+'''
+accumulatedValue = AccumulatedValue(
+    InterestRate, effectiveInterestTerms, fixedPeriod, repayAmount, price)
+
+
+'''
+Calculate Given Time method takes 5 parameters as intergers and returns downpayment amount at any given time.
+'''
+calculateGivenTime = CalculateGivenTime(
+    InterestRate, effectiveInterestTerms, fixedPeriod, repayAmount, price)
+
+```
